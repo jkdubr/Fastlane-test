@@ -17,9 +17,9 @@ default_platform(:ios)
 
 platform :ios do
   desc "Push a new beta build to TestFlight"
-  lane :beta do
+  lane :alfa do
     increment_build_number(xcodeproj: "fastlane-test.xcodeproj")
     build_app(scheme: "fastlane-test")
-    upload_to_testflight
+#    upload_to_testflight
   end
 end
