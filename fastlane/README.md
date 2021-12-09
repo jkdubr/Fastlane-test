@@ -20,7 +20,7 @@ or alternatively using `brew install fastlane`
 ```
 fastlane ios alfa
 ```
-Push a new beta build to TestFlight
+Description of what the lane does
 
 ----
 
